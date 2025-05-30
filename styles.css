@@ -1,50 +1,51 @@
 :root {
-    --background-color: #2A9D8F;
-    --nav-background-color: #264653;
-    --primary-color: #E9C46A;
-    --secondary-color: #F4A261;
-    --title-color: #E76F51;
-    --principal-font: "Noto Sans", sans-serif;
-    --title-font: "Bree Serif", serif;
+  --background-color: #2a9d8f;
+  --nav-background-color: #264653;
+  --primary-color: #e9c46a;
+  --secondary-color: #f4a261;
+  --title-color: #e76f51;
+  --principal-font: "Noto Sans", sans-serif;
+  --title-font: "Bree Serif", serif;
 }
 
 * {
-    font-family: var(--principal-font);
-    padding: 0;
-    margin: 0;
+  font-family: var(--principal-font);
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
+.bg-body-tertiary {
+  background-color: #264653 !important;
+}
 
 .bg-light {
-    background-color: var(--nav-background-color) !important;
+  background-color: var(--nav-background-color) !important;
 }
 
 .nav-item a,
 .title {
-    color: var(--primary-color);
-    display: flex;
-    justify-content: center;
+  color: var(--primary-color) !important;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
-    margin-top: 18px;
-    font-family: var(--title-font);
-    font-weight: bold;
-    text-shadow: 0 0 10px black;
-    font-size: 50px;
-
+  margin-top: 18px;
+  font-family: var(--title-font);
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+  font-size: 50px;
 }
 
 .material-symbols-outlined {
-    color: #E9C46A;
+  color: #e9c46a;
 }
 
 .navbar__logo {
-    width: 90px;
-    margin-left: 20px;
+  width: 90px;
+  margin-left: 20px;
 }
-
