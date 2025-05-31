@@ -132,8 +132,9 @@ section {
   justify-content: center;
   padding-bottom: 20px;
 }
+
 .plato {
-  background: rgb(0, 255, 191);
+  background: #287271;
   padding: 10px 15px;
   border-radius: 10px;
   width: auto;
@@ -147,20 +148,21 @@ section {
   text-align: center;
   justify-content: space-between;
 }
+
 .plato img{
     width: 190px;
     border-radius: 5px;
 }
+
 .plato h2{
     margin-bottom: 40px;
 }
-.plato__nombre{
-    color: var(--nav-background-color);
-}
+
 .plato__ingredientes{
     font-size: 10px;
     color: black;
 }
+
 .menu__title{
   text-align: center;
   padding-top: 30px;
