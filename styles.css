@@ -4,6 +4,7 @@
   --primary-color: #e9c46a;
   --secondary-color: #f4a261;
   --title-color: #e76f51;
+  --background-cards: #287271;
   --principal-font: "Noto Sans", sans-serif;
   --title-font: "Bree Serif", serif;
 }
@@ -16,6 +17,11 @@
 
 body {
   background-color: var(--background-color);
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .bg-body-tertiary {
@@ -33,6 +39,15 @@ body {
   justify-content: center;
 }
 
+.navbar__logo {
+  width: 90px;
+  margin-left: 20px;
+}
+
+.material-symbols-outlined {
+  color: #e9c46a;
+}
+
 .title {
   margin-top: 18px;
   font-family: var(--title-font);
@@ -41,23 +56,98 @@ body {
   font-size: 50px;
 }
 
-.material-symbols-outlined {
-  color: #e9c46a;
+.subtitle,
+.subtitle__p {
+  display: flex;
+  justify-content: center;
 }
 
-.navbar__logo {
-  width: 90px;
-  margin-left: 20px;
+.about {
+  display: flex;
+  align-items: center;
 }
+
+.about__description {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.fair_img {
+  width: 100%;
+}
+
+.card__index {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card__index .card-img-top {
+  height: 300px;
+}
+
+.card__schedule{
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.card__schedule .card-img-top{
+  width: 100%;
+  height: 300px;
+}
+
+.card__index{
+  background-color: var(--background-cards);
+  color: black;
+  margin: 5%;
+}
+
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.col__btn {
+  position: absolute; 
+  top: 50%;            
+  left: 50%;           
+  transform: translate(-50%, -50%); 
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 60px; 
+  border: none;   
+}
+
+.col__btn:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-title{
+  color: var(--title-color);
+}
+
+.modal-content, .modal-title{
+  text-align: center;
+}
+
 .menu {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+
 }
 .plato {
   background: rgb(0, 255, 191);
+
+  padding-bottom: 20px;
+}
+
+.plato {
+  background: var(--background-cards);
   padding: 10px 15px;
   border-radius: 10px;
   width: auto;
@@ -71,6 +161,7 @@ body {
   text-align: center;
   justify-content: space-between;
 }
+
 .plato img{
     width: 190px;
 }
@@ -83,4 +174,29 @@ body {
 .plato__ingredientes{
     font-size: 10px;
     color: var(--third_color);
+
+.plato img{
+    width: 190px;
+    border-radius: 5px;
+}
+
+.plato h2{
+    margin-bottom: 40px;
+}
+
+.plato__ingredientes{
+    font-size: 10px;
+    color: black;
+}
+
+.menu__title{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.subtitle__p2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
 }
