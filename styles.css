@@ -162,18 +162,20 @@ section {
   justify-content: space-between;
 }
 
-.plato img{
+.plato__img{
     width: 190px;
 }
+
 .plato h2{
     margin-bottom: 40px;
 }
 .plato__nombre{
-    color: white;
+    color: black;
 }
 .plato__ingredientes{
     font-size: 10px;
     color: var(--third_color);
+}
 
 .plato img{
     width: 190px;
