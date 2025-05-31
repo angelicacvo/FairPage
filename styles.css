@@ -131,12 +131,18 @@ section {
 .modal-content, .modal-title{
   text-align: center;
 }
+
 .menu {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+
+}
+.plato {
+  background: rgb(0, 255, 191);
+
   padding-bottom: 20px;
 }
 
@@ -155,6 +161,19 @@ section {
   text-align: center;
   justify-content: space-between;
 }
+
+.plato img{
+    width: 190px;
+}
+.plato h2{
+    margin-bottom: 40px;
+}
+.plato__nombre{
+    color: white;
+}
+.plato__ingredientes{
+    font-size: 10px;
+    color: var(--third_color);
 
 .plato img{
     width: 190px;
