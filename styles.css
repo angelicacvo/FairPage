@@ -4,6 +4,7 @@
   --primary-color: #e9c46a;
   --secondary-color: #f4a261;
   --title-color: #e76f51;
+  --background-cards: #287271;
   --principal-font: "Noto Sans", sans-serif;
   --title-font: "Bree Serif", serif;
 }
@@ -97,6 +98,12 @@ section {
   height: 300px;
 }
 
+.card__index{
+  background-color: var(--background-cards);
+  color: black;
+  margin: 5%;
+}
+
 
 .card-title,
 .card-text {
@@ -134,7 +141,7 @@ section {
 }
 
 .plato {
-  background: #287271;
+  background: var(--background-cards);
   padding: 10px 15px;
   border-radius: 10px;
   width: auto;
