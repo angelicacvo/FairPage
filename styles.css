@@ -74,6 +74,7 @@ body {
 }
 .plato img{
     width: 190px;
+    border-radius: 5px;
 }
 .plato h2{
     margin-bottom: 40px;
@@ -87,9 +88,12 @@ body {
 }
 .menu__title{
   text-align: center;
-  padding: 30px;
-  font-family: var(--title-font);
-  font-weight: bold;
-  text-shadow: 0 0 10px black;
-  font-size: 20px;
+  padding-top: 30px;
+}
+
+.subtitle__p2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
 }
